@@ -1,0 +1,17 @@
+.carousel{
+    background: url(../image/product-header-bg.jpg) no-repeat center;
+    background-size: cover;
+    height: 40rem;
+
+    .container{
+        padding-top: $pd-1;
+        > img {
+            width: 40%;
+        }
+        .intro{
+            > h1{
+                @include styleText($fs-4, $fw-2, $color-blue-2);
+            }
+        }
+    }
+}

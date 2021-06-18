@@ -1,0 +1,6 @@
+@function c($val){
+    @if map-has-key($map: $colors, $key: $val){
+        @return map-get($map: $colors, $key: $val);
+    }
+    @return "Invalid key";
+}

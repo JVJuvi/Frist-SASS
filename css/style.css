@@ -1,0 +1,100 @@
+.header {
+  background-color: #f6f8fe;
+}
+
+.header .container > a {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #2a73dd;
+  text-decoration: none;
+}
+
+.header .container .nav a {
+  text-decoration: none;
+  padding: 8px 8px;
+}
+
+.header .container .nav a:after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background-color: plum;
+  display: block;
+  margin: auto;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+}
+
+.header .container .nav a:hover::after {
+  width: 100%;
+}
+
+.carousel {
+  background: url(../image/product-header-bg.jpg) no-repeat center;
+  background-size: cover;
+  height: 40rem;
+}
+
+.carousel .container {
+  padding-top: 25px;
+}
+
+.carousel .container > img {
+  width: 40%;
+}
+
+.carousel .container .intro > h1 {
+  font-size: 70px;
+  font-weight: 600;
+  color: #2a73dd;
+}
+
+.products {
+  border: 1px solid transparent;
+  margin-top: 30px;
+}
+
+.products > h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.products .cardPhone {
+  margin-bottom: 30px;
+  background-color: #f5f9fe;
+  -webkit-box-shadow: 6px 6px 12px #e2ebfc;
+          box-shadow: 6px 6px 12px #e2ebfc;
+  padding: 2rem;
+  border: none;
+}
+
+.products .cardPhone > img {
+  -webkit-box-shadow: 6px 6px 12px #e2ebfc;
+          box-shadow: 6px 6px 12px #e2ebfc;
+}
+
+.products .cardPhone .cardPhone__tittle {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #1d365e;
+}
+
+.products .cardPhone .cardPhone__rating {
+  color: #f9d412;
+}
+
+.btnBuyNow {
+  background-color: transparent;
+  padding: 5px 10px;
+  border: 1px solid #2a73dd;
+  border-radius: 2px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #2a73dd;
+}
+
+.btnBuyNow:hover {
+  background-color: #f5f9fe;
+  border: black;
+}
+/*# sourceMappingURL=style.css.map */

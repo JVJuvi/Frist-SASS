@@ -1,0 +1,8 @@
+.btnBuyNow{
+    @include styleButton(transparent, 5px, 10px, 1px solid $color-blue-2, $bd-1);
+    @include styleText($fs-1, $fw-1, $color-blue-2);
+    &:hover{
+        background-color: $color-white-1;
+        border: black;
+    }
+}

@@ -1,0 +1,27 @@
+
+.products{
+    border: 1px solid transparent;
+    margin-top: $mg-1;
+
+    > h1{
+        text-align: center;
+        margin-bottom: $mg-1;
+    }
+    .cardPhone{
+        margin-bottom: $mg-1;
+        background-color: $color-white-1;
+        box-shadow: 6px 6px 12px $color-white-2;
+        padding: 2rem;
+        border: none;
+
+        > img{
+            box-shadow: 6px 6px 12px $color-white-2;
+        }
+        .cardPhone__tittle{
+            @include styleText($fs-3, $fw-2, $color-blue-1);
+        }
+        .cardPhone__rating{
+            color: $color-yellow-1;
+        }
+    }
+}

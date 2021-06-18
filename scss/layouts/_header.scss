@@ -1,0 +1,26 @@
+.header{
+    background-color: c("light");
+
+    .container{
+        > a{
+            @include styleText($text-lg, $fw-2, $color-blue-2);
+            text-decoration: none;
+        }
+        .nav a{
+            text-decoration: none;
+            padding: $pd-6 $pd-6;
+        }
+        .nav a:after{
+            content: "";
+            width: 0%;
+            height: 2px;
+            background-color: plum;
+            display: block;
+            margin: auto;
+            transition: 0.3s all;
+        }
+        .nav a:hover::after{
+            width: 100%;
+        }
+    }
+}
